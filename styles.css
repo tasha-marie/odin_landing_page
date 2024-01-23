@@ -8,7 +8,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif'
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -20,7 +20,12 @@ nav {
 .logo {
     width: 100px;;
     vertical-align: middle;
-    margin-left: 100px;
+    margin-left: 150px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .navbar {
@@ -32,7 +37,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 200px;
 }
 
 a {
@@ -44,3 +49,45 @@ a {
 a:hover {
     color: #3882f6;
 }
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 75px;
+}
+
+.signup {
+    flex-basis: 550px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 49px;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 2px;
+    padding: 10px 32px;
+    border-radius: 5px;
+}
+
+.hero-image {
+    margin-left: 75px;
+}
+
+.hero-img {
+    width: 500px;
+    height: 250px;
+}
+
